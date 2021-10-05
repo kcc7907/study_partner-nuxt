@@ -1,4 +1,4 @@
-# study_partner-nuxt
+# study_partner-nuxt 
 
 ## Build Setup
 

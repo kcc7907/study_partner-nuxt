@@ -31,20 +31,20 @@
 }
 
 .tab01-0{
-    background-image: url(/images/p2-1-0.svg);
+    background-image: url(./images/p2-1-0.svg);
     padding: 10px 30px 10px 0px;
 }
 
 .tab02-0{
-    background-image: url(/images/p2-2-0.svg);
+    background-image: url(./images/p2-2-0.svg);
     padding: 10px 30px 10px 0px;
 }
 .tab01{
-    background-image: url(/images/p2-2.svg);
+    background-image: url(./images/p2-2.svg);
     padding: 10px 30px 10px 30px;
 }
 .tab02{
-    background-image: url(/images/p2-1.svg);
+    background-image: url(./images/p2-1.svg);
     padding: 10px 30px 10px 30px;
 }
 
@@ -60,7 +60,7 @@
     max-width: 1332px;
     width: 90%;
     height: 581px;
-    background-image: url(/images/p2-5.svg);
+    background-image: url(./images/p2-5.svg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,10 +85,10 @@
     z-index: 1;
 }
 #studentThoughts01::before{
-    background-image: url(/images/p2-3.svg);
+    background-image: url(./images/p2-3.svg);
 }
 #studentThoughts02::before{
-    background-image: url(/images/p2-4.svg);
+    background-image: url(./images/p2-4.svg);
 }
 
 .bigFont{

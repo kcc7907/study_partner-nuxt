@@ -1,0 +1,80 @@
+.footerBlock{
+    border: 1px solid #E3EDF9;
+    width: 100%;
+    background-color: #E3EDF9;
+    height: 100%;
+    position: relative;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    max-width: 600px;
+    width: 100%;
+}
+.footerLOGO{
+    max-width: 317px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.footerText01{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.footerText02{
+    color: #A3A6AA;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.QRcode{
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transition: all .1s ease-in ;
+}
+
+.QRcode:hover{
+    transform:  translateY(-50%) scale(1.02);
+}
+
+.QRcode a{
+    display: block;
+}
+
+@media screen and (max-width: 1600px){
+    .footerText01{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footerText02{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .footerText{
+        margin: 50px auto;
+    }
+    .footerLOGO{
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
+    .footerText01 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .footerText02 {
+        font-size: 16px;
+    }
+}

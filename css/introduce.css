@@ -1,0 +1,56 @@
+
+.teachingMethod{
+    text-align: center;
+}
+.blockBg02{
+    width: 100%;
+    padding: 50px 0 ;
+}
+#listeningPractice{
+    background-color: #F6FAFE;
+}
+
+#conversationPractice{
+    background-color: #DBEAF3;
+}
+
+.blockBg02Picture{
+    max-width: 1560px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.blockBg02Picture img{
+    width: 100%;
+}
+table{
+    margin: 40px auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+table, tr, th, td {
+    border: 1px solid #1F94D8;
+    /* text-align: center; */
+    font-size: 25px;
+    padding: 10px 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+thead{
+    background-color: #DBEAF3;
+}
+
+.blue{
+    color: #1F94D8;
+}
+.orange{
+    color: #BC4027;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+    text-align: center
+}
+

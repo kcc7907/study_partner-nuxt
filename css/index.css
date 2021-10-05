@@ -1,0 +1,279 @@
+.indexBanner{
+    padding-top: 128px ;
+    position: relative;
+}
+
+.indexBanner img{
+    width: 100%;
+}
+
+.bannerText{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10%;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #FFFBFC;
+    text-shadow: #00000059 0px 3px 6px;
+}
+
+.studyAbroadStep{
+    margin: 70px auto 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stepIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+}
+.stepBlock{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    max-width: 360px;
+}
+.stepNumber{
+    font-size: 58px;
+    font-weight: bold;
+    color: #81C0D8;
+    margin: 0 15px;
+}
+
+#languageCenter{
+    background: #D6E4F3;
+}
+
+#newsBlock{
+    background: #FFFFBE;
+}
+
+.newsBlock{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 20px auto 40px;
+    max-width: 1300px;
+}
+
+.news{
+    color: #1660AB;
+    font-size: 22px;
+    display: flex;
+    margin: 20px 0;
+}
+
+.newsTitle{
+    margin: 0 20px;
+}
+
+.blockBg{
+    width: 100%;
+    padding: 20px 0 0px;
+}
+.teacherBlock{
+    width: 100%;
+    background-image: url(/images/index-7.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.teacherInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.teacherPicture{
+    max-width: 387px;
+    width: 80%;
+    margin: 20px;
+}
+
+.teacherName{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.teacherEducation{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.teacherExperience{
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 15px;
+}
+.teacherWordsAll{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 34px;
+}
+.teacherWords{
+    max-width: 387px;
+    width: 100%;
+    height: 266px;
+    background-image: url(/images/index-8.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 12%;
+    transition: all .2s ease-in ;
+}
+.teacherWords:hover{
+    background-image: url(/images/index-9.svg);
+}
+
+.teacherWords a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12%;
+}
+
+.teacherWordsBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.teacherWordsIcon{
+    margin: 15px;
+    max-width: 108px;
+    width: 80%;
+    height: 86px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in ;
+}
+
+#teacherWordsIcon01{
+    background-image: url(/images/index-10.svg);
+}
+.teacherWords:hover #teacherWordsIcon01{
+    background-image: url(/images/index-10-hover.svg);
+}
+#teacherWordsIcon02{
+    background-image: url(/images/index-11.svg);
+}
+.teacherWords:hover #teacherWordsIcon02{
+    background-image: url(/images/index-11-hover.svg);
+}
+#teacherWordsIcon03{
+    background-image: url(/images/index-12.svg);
+}
+.teacherWords:hover #teacherWordsIcon03{
+    background-image: url(/images/index-12-hover.svg);
+}
+
+.teacherWordsTitle{
+    color: #3281D1;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transition: all .2s ease-in ;
+}
+.teacherWords:hover .teacherWordsTitle{
+    color: #ffffff;
+}
+.rightArrow{
+    background-image: url(/images/rightArrow.svg);
+    margin-left: 15px;
+    width: 24px;
+    height: 21px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in ;
+}
+
+.teacherWords:hover .rightArrow{
+    background-image: url(/images/rightArrow-hover.svg);
+}
+@media screen and (max-width: 1600px) {
+    .bannerText{
+        font-size: 50px;
+        line-height: 74px;
+    }
+
+    .stepNumber{
+        font-size: 54px;
+    }
+    .news{
+        font-size: 20px;
+    }
+    .teacherName{
+        font-size: 28px;
+    }
+    .teacherEducation{
+        font-size: 20px;
+    }
+    .teacherExperience{
+        font-size: 20px;
+    }
+    .teacherWordsTitle{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .bannerText {
+        font-size: 46px;
+        line-height: 70px;
+    }
+    .indexBanner{
+        padding-top: 110px;
+    }
+    .stepNumber {
+        font-size: 52px;
+    }
+    .teacherPicture{
+        max-width: 350px;
+    }
+    .teacherName{
+        font-size: 26px;
+    }
+    .teacherEducation{
+        font-size: 18px;
+    }
+    .teacherExperience{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .teacherWordsTitle{
+        font-size: 26px;
+    }
+}
+/* * Extra large devices */ 
+@media screen and (max-width: 1200px) {}
+
+/* desktops */
+@media (max-width: 992px) {}
+
+/* tablets */
+@media (max-width: 768px) {}
+
+/* phones */
+@media (max-width: 576px) {}

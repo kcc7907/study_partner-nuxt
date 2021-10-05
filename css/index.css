@@ -75,7 +75,7 @@
 }
 .teacherBlock{
     width: 100%;
-    background-image: url(./images/index-7.png);
+    background-image: url(../images/index-7.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     display: flex;
@@ -123,7 +123,7 @@
     max-width: 387px;
     width: 100%;
     height: 266px;
-    background-image: url(./images/index-8.svg);
+    background-image: url(../images/index-8.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@
     transition: all .2s ease-in ;
 }
 .teacherWords:hover{
-    background-image: url(./images/index-9.svg);
+    background-image: url(../images/index-9.svg);
 }
 
 .teacherWords a{
@@ -168,22 +168,22 @@
 }
 
 #teacherWordsIcon01{
-    background-image: url(./images/index-10.svg);
+    background-image: url(../images/index-10.svg);
 }
 .teacherWords:hover #teacherWordsIcon01{
-    background-image: url(./images/index-10-hover.svg);
+    background-image: url(../images/index-10-hover.svg);
 }
 #teacherWordsIcon02{
-    background-image: url(./images/index-11.svg);
+    background-image: url(../images/index-11.svg);
 }
 .teacherWords:hover #teacherWordsIcon02{
-    background-image: url(./images/index-11-hover.svg);
+    background-image: url(../images/index-11-hover.svg);
 }
 #teacherWordsIcon03{
-    background-image: url(./images/index-12.svg);
+    background-image: url(../images/index-12.svg);
 }
 .teacherWords:hover #teacherWordsIcon03{
-    background-image: url(./images/index-12-hover.svg);
+    background-image: url(../images/index-12-hover.svg);
 }
 
 .teacherWordsTitle{
@@ -200,7 +200,7 @@
     color: #ffffff;
 }
 .rightArrow{
-    background-image: url(./images/rightArrow.svg);
+    background-image: url(../images/rightArrow.svg);
     margin-left: 15px;
     width: 24px;
     height: 21px;
@@ -211,7 +211,7 @@
 }
 
 .teacherWords:hover .rightArrow{
-    background-image: url(./images/rightArrow-hover.svg);
+    background-image: url(../images/rightArrow-hover.svg);
 }
 @media screen and (max-width: 1600px) {
     .bannerText{

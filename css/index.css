@@ -28,12 +28,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 360px;
+    width: 33%;
+    margin: 20px;
+    /* max-width: 360px;
+    margin: 10px 30px; */
 }
 .stepBlock{
     width: 100%;
     display: flex;
-    margin: 10px 0;
+    margin: 20px;
     max-width: 360px;
 }
 .stepNumber{
@@ -54,7 +57,7 @@
 .newsBlock{
     /* border: 1px solid red; */
     width: 90%;
-    margin: 20px auto 40px;
+    margin: 40px auto 40px;
     max-width: 1300px;
 }
 
@@ -265,15 +268,171 @@
     .teacherWordsTitle{
         font-size: 26px;
     }
+    .teacherWords{
+        max-width: 350px;
+        height: 240px;
+    }
 }
 /* * Extra large devices */ 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    .indexBanner {
+        padding-top: 90px;
+    }
+    .teacherWords {
+        max-width: 280px;
+        height: 200px;
+    }
+    .teacherWordsIcon{
+        max-width: 94px;
+        height: 70px;
+        margin: 12px;
+    }
+}
 
 /* desktops */
-@media (max-width: 992px) {}
+@media (max-width: 1000px) {
+    .indexBanner {
+        padding-top: 60px;
+    }
+    .bannerText {
+        font-size: 40px;
+        line-height: 60px;
+        right: 6%;
+    }
+    .blockTitle {
+        font-size: 28px;
+    }
+
+    .stepNumber {
+        font-size: 45px;
+        margin: 0 10px;
+    }
+    .stepIcon{
+        /* max-width: 330px; */
+    }
+    .teacherPicture {
+        max-width: 300px;
+    }
+    .teacherName {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .teacherExperience {
+        font-size: 16px;
+        margin-top: 6px;
+        line-height: 30px;
+    }
+    .teacherWords {
+        max-width: 230px;
+        height: 150px;
+    }
+    .teacherWordsIcon {
+        max-width: 80px;
+        height: 61px;
+        margin: 5px;
+    }
+    .teacherWordsTitle {
+        font-size: 24px;
+    }
+    .teacherWordsBlock{
+        margin-bottom: 5px;
+    }
+    .rightArrow{
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+    }
+    .studyAbroadStep {
+        margin: 50px auto 20px;
+    }
+}
 
 /* tablets */
-@media (max-width: 768px) {}
+@media (max-width: 800px) {
+
+    .studyAbroadStep{
+        flex-wrap: wrap;
+    }
+    .teacherPicture {
+        max-width: 220px;
+    }
+    .teacherName {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .teacherEducation {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .studyAbroadStep {
+        margin: 40px auto 20px;
+    }
+    .teacherBlock{
+        margin-top: 160px;
+    }
+    .teacherInfo{
+        margin-top: -130px;
+        margin-bottom: 50px;
+    }
+    .teacherExperience {
+        font-size: 14px;
+        margin-top: 6px;
+        line-height: 26px;
+    }
+    .teacherWordsAll{
+        flex-wrap: wrap;
+    }
+    .teacherWordsTitle {
+        font-size: 22px;
+    }
+    .bannerText {
+        font-size: 26px;
+        line-height: 36px;
+        right: 6%;
+    }
+    .stepIcon{
+        width: 40%;
+    }
+    .stepBlock{
+        max-width: none;
+        margin: 14px;
+    }
+}
 
 /* phones */
-@media (max-width: 576px) {}
+@media (max-width: 600px) {
+    .teacherPicture {
+        max-width: 200px;
+    }
+    .teacherBlock{
+        flex-direction: column;
+    }
+    .teacherInfo{
+        margin-top: 0;
+    }
+    .teacherBlock{
+        margin-top: 0;
+    }
+    .stepIcon{
+        margin: 10px;
+        width: 90%;
+    }
+    .bannerText {
+        font-size: 18px;
+        line-height: 26px;
+        right: 4%;
+        top: 54%;
+    }
+}
+
+@media (max-width: 400px){
+    .stepBlock{
+        margin: 10px;
+    }
+    .stepNumber {
+        font-size: 35px;
+    }
+    .teacherWords{
+        margin: 14px;
+    }
+}

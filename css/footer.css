@@ -11,8 +11,8 @@
     flex-direction: column;
     align-items: center;
     margin: 60px auto;
-    max-width: 600px;
-    width: 100%;
+    /* max-width: 600px; */
+    width: 95%;
 }
 .footerLOGO{
     max-width: 317px;
@@ -25,6 +25,7 @@
     line-height: 35px;
     margin-bottom: 30px;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .footerText02{
@@ -42,6 +43,8 @@
     top: 50%;
     right: 3%;
     transition: all .1s ease-in ;
+    max-width: 219px;
+    width: 100%;
 }
 
 .QRcode:hover{
@@ -50,6 +53,10 @@
 
 .QRcode a{
     display: block;
+}
+
+.QRcode img{
+    width: 100%;
 }
 
 @media screen and (max-width: 1600px){
@@ -72,9 +79,83 @@
     }
     .footerText01 {
         font-size: 18px;
-        margin-bottom: 18px;
+        margin-bottom: 10px;
     }
     .footerText02 {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 1200px){
+    .QRcode{
+        max-width: 180px;
+    }
+    .footerLOGO{
+        margin-bottom: 20px;
+    }
+    .footerText01 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .footerText {
+        margin: 40px auto;
+    }
+}
+@media screen and (max-width: 1000px){
+    .footerLOGO{
+        max-width: 270px;
+        margin-bottom: 10px;
+    }
+    .QRcode{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .footerLOGO {
+        max-width: 250px;
+    }
+    .footerText01 {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .footerText02 {
+        font-size: 14px;
+    }
+    .footerText {
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .footerLOGO {
+        max-width: 200px;
+        margin-bottom: 3px;
+    }
+    .footerText01 {
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 32px;
+    }
+    .footerText02 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .footerLOGO {
+        max-width: 190px;
+        margin-bottom: 5px;
+    }
+    .footerText {
+        margin: 20px auto;
+    }
+    .footerText01 {
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+    .footerText02 {
+        line-height: 24px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+}
+

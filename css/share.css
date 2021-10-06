@@ -165,7 +165,83 @@ body{
     .videoBlock{
         max-width: 850px;
     }
-    .teacherWords{
-        max-width: 350px;
+
+}
+@media screen and (max-width: 1200px){
+    .Banner02 {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .blockTitle{
+        font-size: 28px;
+    }
+    .Banner02 {
+        padding-top: 60px;
+    }
+    .stepText {
+        font-size: 19px;
+        line-height: 36px;
+    }
+
+    .videoBlock {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .blockTitle{
+        margin: 20px auto;
+        font-size: 26px;
+    }
+    .news {
+        font-size: 18px;
+    }
+    .videoBlock {
+        max-width: 600px;
+        margin: 40px auto 50px;
+    }
+
+
+    .stepText {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .videoBlock{
+        margin: 40px auto 30px;
+    }
+    .blockTitle{
+        margin: 15px auto;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .studyAbroadStep {
+        margin: 30px auto 20px;
+    }
+    .blockTitle span {
+        margin: 0px 10px;
+    }
+    .blockTitle img{
+        width: 70px;
+    }
+    .stepText {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .blockTitle{
+        font-size: 22px;
+    }
+    .blockTitle img {
+        width: 60px;
+    }
+    .studyAbroadStep {
+        margin: 20px auto 20px;
     }
 }

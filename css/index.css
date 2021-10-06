@@ -435,4 +435,8 @@
     .teacherWords{
         margin: 14px;
     }
+    .stepIcon {
+        margin: 10px;
+        width: 80%;
+    }
 }

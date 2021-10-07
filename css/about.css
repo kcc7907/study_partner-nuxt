@@ -70,6 +70,9 @@
 #applicationButton a{
     text-decoration: none;
     color: #2C6EB1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #applicationButton img{
@@ -78,7 +81,11 @@
 #applicationButton:hover{
     transform: scale(1.02);
 }
-
+@media screen and (max-width: 1200px){
+    #applicationButton{
+        font-size: 34px;
+    }
+}
 @media screen and (max-width: 1000px){
     .aboutBlock{
         padding: 40px 25px 10px 25px;
@@ -96,6 +103,11 @@
         font-size: 21px;
         line-height: 38px;
     }
+    #applicationButton{
+        font-size: 30px;
+        letter-spacing: 3px;
+        padding: 10px 55px;
+    }
 }
 @media screen and (max-width: 800px){
     .aboutBlockIcon {
@@ -105,6 +117,11 @@
         padding: 50px 25px 10px 25px;
         max-width: 530px;
         margin: 30px;
+    }
+    #applicationButton{
+        font-size: 28px;
+        letter-spacing: 3px;
+        padding: 10px 50px;
     }
 }
 
@@ -119,4 +136,10 @@
     .aboutBlockIcon {
         margin-right: 15px;
     }
+    #applicationButton{
+        font-size: 26px;
+        letter-spacing: 2px;
+        padding: 10px 46px;
+    }
+}
 }

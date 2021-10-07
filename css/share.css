@@ -201,6 +201,12 @@ body{
         line-height: 34px;
         font-size: 23px;
     }
+    .blockTitle04 {
+        font-size: 26px;
+    }
+    .stepText02{
+        font-size: 23px;
+    }
 }
 @media screen and (max-width: 1000px){
     .Banner02Text {
@@ -256,7 +262,7 @@ body{
     }
     .stepText02{
         font-size: 23px;
-        line-height: 42px;
+        line-height: 40px;
     }
     .blockText{
         font-size: 23px;

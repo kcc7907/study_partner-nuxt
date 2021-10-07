@@ -6,16 +6,17 @@
 }
 
 .tabBlock{
-    max-width: 1333px;
+    max-width: 1600px;
     width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    justify-content: space-evenly
 }
 .tabStep{
     max-width: 411px;
     width: 100%;
-    margin: 10px auto 30px ;
+    margin: 10px 20px 20px 20px;
 }
 .tab{
     max-width: 411px;
@@ -50,6 +51,7 @@
 
 #studentThoughtsBlock{
     background-color: #F6FAFE;
+    margin-top: 50px;
 }
 
 .studentThoughtsAll{
@@ -94,4 +96,127 @@
 .bigFont{
     font-size: 30px;
     line-height: 60px;
+}
+
+.studentThoughtsStepText{
+    width: 100%;
+    color: #7B7B7B;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+@media screen and (max-width: 1600px){
+    .stepNumber02 {
+        font-size: 54px;
+    }
+    .stepText03{
+        line-height: 40px;
+    }
+    .tabStep {
+        max-width: 400px;
+    }
+    .studentThoughtsStepText{
+        font-size: 23px;
+        line-height: 42px;
+    }
+    .bigFont {
+        font-size: 28px;
+    }
+    .studentThoughts{
+        max-width: 1250px;
+        /* background-size: contain; */
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .studentThoughtsStepText {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .studentThoughts{
+        height: unset;
+        padding: 55px;
+        /* background-position: center bottom; */
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .tabStep {
+        max-width: 380px;
+    }
+    .studentThoughts{
+        max-width: 1290px;
+        /* background-size: contain; */
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .tabStep {
+        max-width: 360px;
+    }
+    .stepNumber02 {
+        font-size: 46px;
+    }
+    .bigFont {
+        font-size: 26px;
+        /* line-height: 50px; */
+    }
+    .studentThoughtsStepText{
+        line-height: 36px;
+    }
+    .studentThoughts::before{
+        width: 120px;
+        height: 120px;
+    }
+    .studentThoughts{
+        padding: 70px 45px 65px 45px;
+    }
+}
+@media screen and (max-width: 800px){
+    .studentThoughts::before{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 600px){
+
+
+    .stepNumber02 {
+        font-size: 42px;
+    }
+    .tab01-0 {
+        padding: 5px 30px 5px 0px;
+    }
+    .tab01 {
+        
+        padding: 5px 30px 5px 30px;
+    }
+    .tab02 {
+        padding: 5px 30px 5px 30px;
+    }
+    .tab02-0 {
+        padding: 5px 30px 5px 0px;
+    }
+    .studentThoughts {
+        padding: 65px 10px 65px 10px;
+    }
+    .studentThoughtsStepText {
+        line-height: 34px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .tabStep {
+        margin: 10px 15px 20px 15px;
+    }
+    .tab{
+        height: 80px;
+    }
+    .studentThoughtsStepText {
+        width: 95%;
+        font-size: 18px;
+    }
 }

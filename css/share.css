@@ -67,6 +67,7 @@ body{
     line-height: 36px;
     text-align: center;
     margin: 10px auto ;
+    word-break: break-all;
 }
 .stepText{
     /* max-width: 319px; */
@@ -85,6 +86,7 @@ body{
     line-height: 45px;
     text-align: center;
     margin: 0 auto 30px;
+    padding: 0 20px;
 }
 .stepText03{
     max-width: 1000px;
@@ -129,7 +131,7 @@ body{
 .Banner02Text{
     position: absolute;
     transform: translateY(-50%);
-    top: 78%;
+    bottom: 3.5%;
     right: 0%;
     font-size: 60px;
     line-height: 80px;
@@ -140,9 +142,19 @@ body{
     padding: 20px 60px 20px 50px;
 }
 
+@media screen and (max-width: 1800px){
+    .Banner02Text{
+        font-size: 50px;
+        padding: 15px 55px 15px 45px;
+    }
+}
 
 @media screen and (max-width: 1600px) {
-
+    .Banner02Text{
+        font-size: 44px;
+        padding: 15px 55px 15px 45px;
+        bottom: 2.5%;
+    }
     .blockTitle{
         font-size: 32px;
     }
@@ -153,6 +165,11 @@ body{
 }
 
 @media screen and (max-width: 1400px){
+    .Banner02Text{
+        font-size: 40px;
+        padding: 10px 50px 10px 35px;
+        bottom: 2%;
+    }
     .Banner02{
         padding-top: 110px;
     }
@@ -168,16 +185,29 @@ body{
 
 }
 @media screen and (max-width: 1200px){
+    .Banner02Text {
+        font-size: 36px;
+        padding: 10px 50px 10px 35px;
+        bottom: 2%;
+        line-height: 60px;
+    }
     .Banner02 {
         padding-top: 90px;
     }
 }
 @media screen and (max-width: 1000px){
+    .Banner02Text {
+        font-size: 32px;
+        padding: 10px 50px 10px 35px;
+        bottom: 6%;
+        line-height: 50px;
+    }
     .blockTitle{
         font-size: 28px;
     }
     .Banner02 {
         padding-top: 60px;
+        margin-bottom: 60px;
     }
     .stepText {
         font-size: 19px;
@@ -190,6 +220,12 @@ body{
 }
 
 @media screen and (max-width: 800px){
+    .Banner02Text {
+        font-size: 26px;
+        padding: 10px 40px 10px 25px;
+        bottom: 5%;
+        line-height: 40px;
+    }
     .blockTitle{
         margin: 20px auto;
         font-size: 26px;
@@ -201,16 +237,32 @@ body{
         max-width: 600px;
         margin: 40px auto 50px;
     }
-
-
     .stepText {
         font-size: 18px;
         line-height: 32px;
     }
-    
+    .blockTitle02{
+        font-size: 26px;
+    }
+    .blockTitle03{
+        font-size: 26px;
+    }
+    .stepText02{
+        font-size: 23px;
+        line-height: 42px;
+    }
+    .blockText{
+        font-size: 23px;
+        line-height: 42px;
+    }
+    .Banner02 img {
+        width: unset;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 600px){
+
     .videoBlock{
         margin: 40px auto 30px;
     }
@@ -229,8 +281,30 @@ body{
         width: 70px;
     }
     .stepText {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 28px;
+    }
+    .blockTitle02{
+        font-size: 24px;
+    }
+    .blockTitle03{
+        font-size: 24px;
+    }
+    .stepText02{
+        font-size: 21px;
+        line-height: 38px;
+        text-align: left;
+    }
+    .blockText{
+        font-size: 21px;
+        line-height: 38px;
+        text-align: left;
+    }
+    .teachingMethod{
+        /* padding: 0 30px; */
+    }
+    .blockText02{
+        text-align: left;
     }
 }
 
@@ -243,5 +317,14 @@ body{
     }
     .studyAbroadStep {
         margin: 20px auto 20px;
+    }
+    .stepText02{
+        font-size: 18px;
+        line-height: 38px;
+        text-align: left;
+    }
+    .blockText{
+        font-size: 18px;
+        line-height: 38px;
     }
 }

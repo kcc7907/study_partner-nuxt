@@ -1,11 +1,16 @@
 
 .teachingMethod{
     text-align: center;
+    padding: 0 20px;
 }
 .blockBg02{
     width: 100%;
     padding: 50px 0 ;
 }
+#introducevideoBlock{
+    padding: 0 20px;
+}
+
 #listeningPractice{
     background-color: #F6FAFE;
 }
@@ -31,11 +36,14 @@ table{
 
 table, tr, th, td {
     border: 1px solid #1F94D8;
-    /* text-align: center; */
+    text-align: center;
     font-size: 25px;
     padding: 10px 30px;
     line-height: 30px;
     vertical-align: middle;
+}
+.text-align-left{
+    text-align: left;
 }
 
 thead{
@@ -53,4 +61,27 @@ thead{
     font-weight: bold;
     text-align: center
 }
+@media (max-width: 1200px){
+    table, tr, th, td{
+        font-size: 23px;
+        padding: 10px 25px;
+    }
+}
+@media (max-width: 1000px){
+    table, tr, th, td{
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 800px){
+    table, tr, th, td{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+}
+@media (max-width: 600px){
+    .teachingMethod {
+        text-align: left;
+    }
 
+}

@@ -90,6 +90,8 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .teacherPicture{
@@ -317,11 +319,11 @@
         font-size: 24px;
         line-height: 40px;
     }
-    .teacherExperience {
+    /* .teacherExperience {
         font-size: 16px;
         margin-top: 6px;
         line-height: 30px;
-    }
+    } */
     .teacherWords {
         max-width: 230px;
         height: 150px;
@@ -374,11 +376,11 @@
         margin-top: -130px;
         margin-bottom: 50px;
     }
-    .teacherExperience {
+    /* .teacherExperience {
         font-size: 14px;
         margin-top: 6px;
         line-height: 26px;
-    }
+    } */
     .teacherWordsAll{
         flex-wrap: wrap;
     }
@@ -397,6 +399,7 @@
         max-width: none;
         margin: 14px;
     }
+
 }
 
 /* phones */

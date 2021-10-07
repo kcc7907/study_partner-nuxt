@@ -220,3 +220,7 @@
         font-size: 18px;
     }
 }
+
+nav ul li:nth-child(2) a{
+    color:#3281D1;
+}

@@ -233,6 +233,9 @@ body{
 }
 
 @media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
     .Banner02Text {
         font-size: 26px;
         padding: 10px 40px 10px 25px;
@@ -347,4 +350,8 @@ body{
     .Banner02Text{
         padding: 10px 30px 10px 25px;
     }
+}
+
+.page-title{
+    color: #3281D1;
 }

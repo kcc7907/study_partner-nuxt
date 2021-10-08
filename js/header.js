@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    console.log("OKK");
-
     // Navbar_Mobile
     let nav = $(".navMobile");
     let ul = $("nav ul");

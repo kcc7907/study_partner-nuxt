@@ -272,7 +272,6 @@ body{
         line-height: 42px;
     }
     .Banner02 img {
-        width: unset;
         height: 200px;
     }
 }

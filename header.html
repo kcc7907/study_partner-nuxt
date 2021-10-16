@@ -1,66 +1,90 @@
 <head>
-    <link rel="stylesheet" href="./css/header.css">
-    <script src="./js/header.js"></script>
+  <link rel="stylesheet" href="./css/header.css" />
+  <script src="./js/header.js"></script>
 </head>
 
-
 <header>
-    <nav>
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./images/menu-logo-02.svg" alt="" class="Logo">
-            </a>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">
+        <img src="./images/menu-logo-02.svg" alt="" class="Logo" />
+      </a>
+    </div>
+    <div class="mobileLogo">
+      <a href="./index.html">
+        <img src="./images/menu-logo-02.svg" alt="" class="navLogo" />
+      </a>
+    </div>
+
+    <ul>
+      <!-- <li><a class="li_a" href="./index.html">ホーム</a></li> -->
+      <li><a class="li_a" href="./introduce.html">受講方法、受講時間</a></li>
+      <li><a class="li_a" href="./procedure.html">留学の手順、生徒の声</a></li>
+      <li><a class="li_a" href="./about.html">受講について、お申し込み</a></li>
+
+      <div class="informationBlock_nav">
+        <div class="receptionTime_nav">
+          <span>受付時間（09：00～21：00）</span>
         </div>
-        <div class="mobileLogo">
-            <a href="./index.html">
-                <img src="./images/menu-logo-02.svg" alt="" class="navLogo">
-            </a>
+        <div class="contactUs_nav">
+          <a >
+            <span>お問い合わせはこちら</span>
+          </a>
         </div>
+      </div>
+      <div class="QRcode_nav">
+        <a >
+          <img src="./images/qr.png" alt="" />
+        </a>
+      </div>
+    </ul>
 
-        <ul>
+    <div class="informationBlock">
+      <div class="receptionTime">
+        <span>受付時間（09：00～21：00）</span>
+      </div>
+      <div class="contactUs">
+        <a>
+          <span>お問い合わせはこちら</span>
+        </a>
+      </div>
+    </div>
 
-
-            <!-- <li><a class="li_a" href="./index.html">ホーム</a></li> -->
-            <li><a class="li_a" href="./introduce.html">受講方法、受講時間</a></li>
-            <li><a class="li_a" href="./procedure.html">留学の手順、生徒の声</a></li>
-            <li><a class="li_a" href="./about.html">受講について、お申し込み</a></li>
-
-            <div class="informationBlock_nav">
-                <div class="receptionTime_nav">
-                    <span>受付時間（09：00～21：00）</span>
-                </div>
-                <div class="contactUs_nav">
-                    <a href="">
-                        <span>お問い合わせはこちら</span>
-                    </a>
-                </div>
-            </div>
-            <div class="QRcode_nav">
-                <a href="">
-                    <img src="./images/qr.png" alt="">
-                </a>
-            </div>
-
-        </ul>
-
-
-        <div class="informationBlock">
-            <div class="receptionTime">
-                <span>受付時間（09：00～21：00）</span>
-            </div>
-            <div class="contactUs">
-                <a href="">
-                    <span>お問い合わせはこちら</span>
-                </a>
-            </div>
-        </div>
-
-        <!-- Navbar_Mobile -->
-        <div class="navMobile">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-    </nav>
+    <!-- Navbar_Mobile -->
+    <div class="navMobile">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
 </header>
+
+<section id="contact" class="f-center">
+    <div class="bg"></div>
+  <form class="animate">
+    <div class="blockTitle f-center">
+      <img src="./images/index-1.svg" alt="" />
+      <span>お問い合わせは</span>
+    </div>
+    <div class="contact__box">
+      <label for="">お名前<sup> *</sup></label>
+      <input type="text" id="name" class="input__all  validate" />
+    </div>
+    <div class="contact__box">
+      <label for="">メールアドレス</label>
+      <input type="text" id="mail" class="input__all" />
+    </div>
+    <div class="contact__box">
+      <label for="message">お問い合わせ内容<sup> *</sup></label>
+      <textarea name="" id="message" class="input__all validate"></textarea>
+    </div>
+    <div class="t-center">
+      <button type="button">送信する</button>
+    </div>
+    <div class="-close">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </form>
+</section>

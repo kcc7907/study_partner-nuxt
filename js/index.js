@@ -1,15 +1,9 @@
 $(function () {
-  /*公共部分
-   * 導航欄
-   * footer CopyRight
-   */
   $(".headerPage").load("header.html");
-  $(".footerPage").load("footer.html");
 });
 
 $(document).ready(function () {
-  console.log("OKK");
-
+  $(".footerPage").load("footer.html");
   // Navbar_Mobile
   let nav = $(".navMobile");
   let ul = $("nav ul");

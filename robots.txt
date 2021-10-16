@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://study-partner-915f8.web.app/sitemap.xml

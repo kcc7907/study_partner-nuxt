@@ -89,14 +89,15 @@ $(document).ready(function () {
       message: $("#contact #message").val(),
       to_name: "kou",
     };
-    emailjs.send(sid, "template_xq95tgt", data, uid).then(
-      function () {
-        contactNone();
-      },
-      function (error) {
-        alert("Email server error");
-        console.error("Email server error", error);
-      }
-    );
+    console.log('送信する',data);
+    // emailjs.send(sid, "template_xq95tgt", data, uid).then(
+    //   function () {
+    //     contactNone();
+    //   },
+    //   function (error) {
+    //     alert("Email server error");
+    //     console.error("Email server error", error);
+    //   }
+    // );
   }
 });

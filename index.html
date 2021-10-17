@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 
 <head>
     <!-- Google Tag Manager -->
@@ -13,17 +13,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Partner | 學伴語言中心 - 首頁</title>
+    <title>Study Partner | 學伴語言中心 - 首頁 : あなたの手を繋ぎ，国際人へと導く</title>
     <meta name="description" content="中国語を教える学科を卒業して、実際に中国語を教えてきた経験豊富な台湾人教師が担当します" />
     <meta name="keywords" content="Study Partner,學伴語言中心,Study Partner - 學伴語言中心,StudyPartner-Kou,Kou-partner" />
     <meta name="google-site-verification" content="IqkNSq4JVJChn0IS5mi_1StLoBAaWY2VCYylTqNwYvg" />
     <link rel="icon" type="image/png" href="./images/StudyPartner_logo_icon.svg" />
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/share.css">
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./plugins/aos.css">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'
         integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=='
         crossorigin='anonymous'></script>
+    <script>window.jQuery || document.write('<script src="./plugins/jquery.min.js"><\/script>')</script>
+
 </head>
 
 <body>
@@ -31,8 +38,13 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-582TV4T"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <!-- header -->
     <div class="headerPage"></div>
-    <script src="./js/index.js"></script>
+    <script>
+        $(".headerPage").load("header.html");
+    </script>
+
     <div class="indexBanner">
         <img src="./images/index-kv.jpg" alt="">
 
@@ -207,6 +219,16 @@
     </div>
 
     <div class="footerPage"></div>
+
+    <!-- scripts -->
+    <script src="./js/header.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>window.AOS || document.write('<script src="./plugins/aos.js"><\/script>')</script>
+    <script>AOS.init({once: true,debounceDelay: 50})</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>window.emailjs || document.write('<script src="./plugins/email.min.js"><\/script>')</script>
+    <script src="./js/index.js"></script>
+
 </body>
 
 </html>

@@ -28,7 +28,7 @@ nav {
 }
 
 .logo a {
-  display: block !important;
+  display: block;
 }
 .logo img {
   width: 100%;

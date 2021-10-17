@@ -1,5 +1,6 @@
 $(function () {
   // Navbar_Mobile
+  console.log('a',$(".navMobile"));
   let nav = $(".navMobile");
   let ul = $("nav ul");
   let li_a = $(".li_a");

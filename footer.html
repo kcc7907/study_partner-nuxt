@@ -3,19 +3,24 @@
 </head>
 
 <footer>
-    <div class="footerBlock">
-        <div class="footerText">
+    <div class="footerBlock" >
+        <div class="footerText" data-aos="fade-in">
             <img class="footerLOGO" src="./images/footer-logo1.svg" alt="">
             <span class="footerText01"> 受付時間 （09：00~21：00） 與您學習的好夥伴</span>
             <span class="footerText02">Copyright © 2021 study partner All Rights Reserved.</span>
         </div>
 
-        <div class="QRcode">
-            <a >
-                <img src="./images/qr.png" alt="">
+        <div class="QRcode" >
+            <a>
+                <img src="./images/qr.png" alt=""  data-aos="flip-left">
             </a>
         </div>
     </div>
 </footer>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<link id="aoscss" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    window.onload = () => AOS.init({once: true,debounceDelay: 50})
+</script>

@@ -1,16 +1,58 @@
-$(function () {
-  $(".footerPage").load("footer.html");
+$(".footerPage").load("footer.html");
+
+$(window).on("load", () => {
+  // Navbar_Mobile
+  let nav = $(".navMobile");
+  let ul = $("nav ul");
+  let li_a = $(".li_a");
+  let logo = $(".Logo");
+
+  nav.click(function (e) {
+    if (nav.hasClass("-close") === false) {
+      ul.css({
+        transform: "translateY(0%)",
+        opacity: "1",
+      });
+      nav.addClass("-close");
+      logo.css({
+        opacity: "0",
+      });
+    } else {
+      ul.css({
+        transform: "translateY(-100%)",
+      });
+      nav.removeClass("-close");
+      setTimeout(() => {
+        logo.css({
+          opacity: "1",
+        });
+      }, 1000);
+    }
+  });
+  // 手機板nav 點擊選項後關閉
+  // li_a.click(closeNav);
+  li_a.click(function () {
+    ul.removeAttr("style");
+    nav.removeClass("-close");
+  });
+
+  $(window).resize(function () {
+    if ($(window).width() >= 800) {
+      ul.removeAttr("style");
+      nav.removeClass("-close");
+    }
+  });
 
   function contactNone() {
     $("#contact").hide();
     $("html").css({ overflow: "auto" });
-    $("#contact form").addClass('animate')
+    $("#contact form").addClass("animate");
   }
 
   function contactShow() {
     $("#contact").css({ display: "flex" });
     setTimeout(() => {
-        $("#contact form").removeClass('animate')
+      $("#contact form").removeClass("animate");
     }, 100);
     $("html").css({ overflow: "hidden" });
   }
